@@ -1,0 +1,38 @@
+@charset "utf-8";
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.table {
+	width: 100%;
+	min-height: 100vh;
+}
+.header {
+	height: 200px;
+	vertical-align: top;
+	text-align: center;
+	background-color: #F8F8FF;
+} 
+.footer {
+	height: 200px;
+	vertical-align: top;
+	text-align: center;
+	background-color: #F8F8FF;
+} 
+.main {
+	min-width: 600px;
+	text-align: left;
+	vertical-align: top;
+	background-color: #FFA07A;
+} 
+.sidebar {
+	width: 20%;
+	vertical-align: top;
+	background-color: #696969;
+} 
+body {
+	margin: 0;
+	padding: 0;
+}
