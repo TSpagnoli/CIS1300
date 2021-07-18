@@ -1,0 +1,42 @@
+@charset "utf-8";
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-template-rows: auto 1fr auto; 
+	grid-template-areas: 
+		"header header header"
+		"left main right"
+		"footer footer footer";
+	min-height: 100vh;
+	background-color: #ffffff;
+	margin: 0;
+	padding: 0;
+}
+header {
+	grid-area: header;
+	background-color: #FF00FF;
+}
+aside:first-of-type {
+	grid-area: left;
+	background-color: #00FFFF;
+}
+main {
+	grid-area: main;
+	background-color: #000000;
+	color: #FF00FF;
+}
+aside:last-of-type {
+	grid-area: right;
+	background-color: #00FFFF;
+}
+footer {
+	grid-area: footer;
+	background-color: #FF00FF;
+}
