@@ -185,6 +185,7 @@ iframe {
       animation-iteration-count: infinite;
     }
 
+
     @keyframes redlight {
       0% {
         background-color:red;
@@ -204,10 +205,10 @@ iframe {
       0% {
         background-color:#333333;
       }
-      70% {
+      90% {
         background-color:#333333;
       }
-      71% {
+      91% {
         background-color:yellow;
       }
       100% {
@@ -225,10 +226,10 @@ iframe {
       51% {
         background-color:green;
       }
-      70% {
+      90% {
         background-color:green;
       }
-      71% {
+      91% {
         background-color:#333333;
       }
       100% {
@@ -237,14 +238,19 @@ iframe {
       
     }
     @keyframes arrowlight {
-     z 0% {
+      0% {
+        background-image:url(image/arrow.png);
+      }
+      20% {
+        background-image:url(image/arrow.png);
+      }
+      21% {
         background-image:none;
       }
-
-      70% {
+      90% {
         background-image:none;
       }
-      71% {
+      91% {
         background-image:url(image/arrow.png);
       }
       100% {
